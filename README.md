@@ -6,3 +6,6 @@ Contains results of epidemic simulations.
 
 ### 📁 network-data
 Contains input data to create the mobility network.
+
+### 📁 network-metrics
+Contains the results of metrics calculations of the networks.
