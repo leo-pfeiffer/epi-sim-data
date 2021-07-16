@@ -4,5 +4,5 @@ Data repository for my MSc thesis. Data used as input for the EpiSim web applica
 ### 📁 simulations
 Contains results of epidemic simulations.
 
-### 📁 network_data
+### 📁 network-data
 Contains input data to create the mobility network.
