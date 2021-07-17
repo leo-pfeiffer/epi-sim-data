@@ -1,4 +1,4 @@
-# msc-thesis-data
+# epi-sim-data
 Data repository for my MSc thesis.
 
 ### 📁 simulations
