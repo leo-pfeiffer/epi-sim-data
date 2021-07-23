@@ -1,0 +1,43 @@
+{
+    "creator": "Created by epyc, computational experiment management for Python <https://pypi.org/project/epyc/>",
+    "version": "2",
+    "description": "SEIR simulation with Distanced Network (Pre)",
+    "current": "epyc.resultset.default",
+    "locked": false,
+    "resultsets": {
+        "epyc.resultset.default": {
+            "results": [
+                {
+                    "parameters": {
+                        "DN.n": 10000,
+                        "epydemic.SEIR.pExposed": 0.0001,
+                        "epydemic.SEIR.pInfect": 0.06451835781268038,
+                        "epydemic.SEIR.pInfectA": 0.03225917890634019,
+                        "epydemic.SEIR.pRemove": 0.1,
+                        "epydemic.SEIR.pSymptoms": 0.2,
+                        "epydemic.generators.topology": "DN",
+                        "epydemic.monitor.time_delta": 10
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 4.06122,
+                        "epyc.experiment.end_time": "2021-07-23T14:45:54.246804",
+                        "epyc.experiment.exception": "'NoneType' object is not iterable",
+                        "epyc.experiment.experiment_time": 0.0,
+                        "epyc.experiment.setup_time": 4.06122,
+                        "epyc.experiment.start_time": "2021-07-23T14:45:50.166812",
+                        "epyc.experiment.status": false,
+                        "epyc.experiment.teardown_time": 0.0,
+                        "epyc.experiment.traceback": "Traceback (most recent call last):\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epyc/experiment.py\", line 237, in run\n    res = self.do(params)\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epydemic/stochasticdynamics.py\", line 120, in do\n    rc = self.experimentalResults()\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epydemic/networkdynamics.py\", line 107, in experimentalResults\n    return self._process.results()\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epydemic/compartmentedmodel.py\", line 344, in results\n    rc = super(CompartmentedModel, self).results()\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epydemic/monitor.py\", line 117, in results\n    for n in self._timeSeries:\nTypeError: 'NoneType' object is not iterable\n",
+                        "epydemic.Dynamics.events": 0,
+                        "epydemic.Dynamics.time": 0
+                    },
+                    "results": {}
+                }
+            ],
+            "pending-results": {},
+            "description": "Results collected on 2021-07-23 14:45:50.158625",
+            "locked": false
+        }
+    }
+}
