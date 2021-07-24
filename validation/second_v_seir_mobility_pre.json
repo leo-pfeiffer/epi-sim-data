@@ -1,0 +1,146 @@
+{
+    "creator": "Created by epyc, computational experiment management for Python <https://pypi.org/project/epyc/>",
+    "version": "2",
+    "description": "SEIR simulation with Mobility Network (Pre)",
+    "current": "epyc.resultset.default",
+    "locked": false,
+    "resultsets": {
+        "epyc.resultset.default": {
+            "results": [
+                {
+                    "parameters": {
+                        "DN.n": 10000,
+                        "epydemic.SEIR.pExposed": 0.018081,
+                        "epydemic.SEIR.pInfect": 0.06451835781268038,
+                        "epydemic.SEIR.pInfectA": 0.03225917890634019,
+                        "epydemic.SEIR.pRemove": 0.1,
+                        "epydemic.SEIR.pSymptoms": 0.2,
+                        "epydemic.monitor.time_delta": 1
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 0,
+                        "epyc.experiment.end_time": "2021-07-24T09:38:41.089025",
+                        "epyc.experiment.exception": "'MN.n'",
+                        "epyc.experiment.experiment_time": 0.0,
+                        "epyc.experiment.rep": 0,
+                        "epyc.experiment.repetitions": 5,
+                        "epyc.experiment.setup_time": 0.0,
+                        "epyc.experiment.start_time": "2021-07-24T09:38:41.087419",
+                        "epyc.experiment.status": false,
+                        "epyc.experiment.teardown_time": 0.0,
+                        "epyc.experiment.traceback": "Traceback (most recent call last):\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epyc/experiment.py\", line 232, in run\n    self.setUp(params)\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epydemic/networkdynamics.py\", line 120, in setUp\n    super().setUp(params)\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epydemic/networkexperiment.py\", line 102, in setUp\n    self._graph = self.networkGenerator().set(params).generate()\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epydemic/generator.py\", line 97, in generate\n    return self._generate(self._params)\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/lib/model/network/mobility_network.py\", line 337, in _generate\n    n = params[self.N]\nKeyError: 'MN.n'\n"
+                    },
+                    "results": {}
+                },
+                {
+                    "parameters": {
+                        "DN.n": 10000,
+                        "epydemic.SEIR.pExposed": 0.018081,
+                        "epydemic.SEIR.pInfect": 0.06451835781268038,
+                        "epydemic.SEIR.pInfectA": 0.03225917890634019,
+                        "epydemic.SEIR.pRemove": 0.1,
+                        "epydemic.SEIR.pSymptoms": 0.2,
+                        "epydemic.monitor.time_delta": 1
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 0,
+                        "epyc.experiment.end_time": "2021-07-24T09:38:41.089897",
+                        "epyc.experiment.exception": "'MN.n'",
+                        "epyc.experiment.experiment_time": 0.0,
+                        "epyc.experiment.rep": 1,
+                        "epyc.experiment.repetitions": 5,
+                        "epyc.experiment.setup_time": 0.0,
+                        "epyc.experiment.start_time": "2021-07-24T09:38:41.089122",
+                        "epyc.experiment.status": false,
+                        "epyc.experiment.teardown_time": 0.0,
+                        "epyc.experiment.traceback": "Traceback (most recent call last):\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epyc/experiment.py\", line 232, in run\n    self.setUp(params)\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epydemic/networkdynamics.py\", line 120, in setUp\n    super().setUp(params)\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epydemic/networkexperiment.py\", line 102, in setUp\n    self._graph = self.networkGenerator().set(params).generate()\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epydemic/generator.py\", line 97, in generate\n    return self._generate(self._params)\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/lib/model/network/mobility_network.py\", line 337, in _generate\n    n = params[self.N]\nKeyError: 'MN.n'\n"
+                    },
+                    "results": {}
+                },
+                {
+                    "parameters": {
+                        "DN.n": 10000,
+                        "epydemic.SEIR.pExposed": 0.018081,
+                        "epydemic.SEIR.pInfect": 0.06451835781268038,
+                        "epydemic.SEIR.pInfectA": 0.03225917890634019,
+                        "epydemic.SEIR.pRemove": 0.1,
+                        "epydemic.SEIR.pSymptoms": 0.2,
+                        "epydemic.monitor.time_delta": 1
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 0,
+                        "epyc.experiment.end_time": "2021-07-24T09:38:41.090214",
+                        "epyc.experiment.exception": "'MN.n'",
+                        "epyc.experiment.experiment_time": 0.0,
+                        "epyc.experiment.rep": 2,
+                        "epyc.experiment.repetitions": 5,
+                        "epyc.experiment.setup_time": 0.0,
+                        "epyc.experiment.start_time": "2021-07-24T09:38:41.089975",
+                        "epyc.experiment.status": false,
+                        "epyc.experiment.teardown_time": 0.0,
+                        "epyc.experiment.traceback": "Traceback (most recent call last):\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epyc/experiment.py\", line 232, in run\n    self.setUp(params)\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epydemic/networkdynamics.py\", line 120, in setUp\n    super().setUp(params)\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epydemic/networkexperiment.py\", line 102, in setUp\n    self._graph = self.networkGenerator().set(params).generate()\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epydemic/generator.py\", line 97, in generate\n    return self._generate(self._params)\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/lib/model/network/mobility_network.py\", line 337, in _generate\n    n = params[self.N]\nKeyError: 'MN.n'\n"
+                    },
+                    "results": {}
+                },
+                {
+                    "parameters": {
+                        "DN.n": 10000,
+                        "epydemic.SEIR.pExposed": 0.018081,
+                        "epydemic.SEIR.pInfect": 0.06451835781268038,
+                        "epydemic.SEIR.pInfectA": 0.03225917890634019,
+                        "epydemic.SEIR.pRemove": 0.1,
+                        "epydemic.SEIR.pSymptoms": 0.2,
+                        "epydemic.monitor.time_delta": 1
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 0,
+                        "epyc.experiment.end_time": "2021-07-24T09:38:41.090426",
+                        "epyc.experiment.exception": "'MN.n'",
+                        "epyc.experiment.experiment_time": 0.0,
+                        "epyc.experiment.rep": 3,
+                        "epyc.experiment.repetitions": 5,
+                        "epyc.experiment.setup_time": 0.0,
+                        "epyc.experiment.start_time": "2021-07-24T09:38:41.090251",
+                        "epyc.experiment.status": false,
+                        "epyc.experiment.teardown_time": 0.0,
+                        "epyc.experiment.traceback": "Traceback (most recent call last):\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epyc/experiment.py\", line 232, in run\n    self.setUp(params)\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epydemic/networkdynamics.py\", line 120, in setUp\n    super().setUp(params)\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epydemic/networkexperiment.py\", line 102, in setUp\n    self._graph = self.networkGenerator().set(params).generate()\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epydemic/generator.py\", line 97, in generate\n    return self._generate(self._params)\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/lib/model/network/mobility_network.py\", line 337, in _generate\n    n = params[self.N]\nKeyError: 'MN.n'\n"
+                    },
+                    "results": {}
+                },
+                {
+                    "parameters": {
+                        "DN.n": 10000,
+                        "epydemic.SEIR.pExposed": 0.018081,
+                        "epydemic.SEIR.pInfect": 0.06451835781268038,
+                        "epydemic.SEIR.pInfectA": 0.03225917890634019,
+                        "epydemic.SEIR.pRemove": 0.1,
+                        "epydemic.SEIR.pSymptoms": 0.2,
+                        "epydemic.monitor.time_delta": 1
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 0,
+                        "epyc.experiment.end_time": "2021-07-24T09:38:41.090592",
+                        "epyc.experiment.exception": "'MN.n'",
+                        "epyc.experiment.experiment_time": 0.0,
+                        "epyc.experiment.rep": 4,
+                        "epyc.experiment.repetitions": 5,
+                        "epyc.experiment.setup_time": 0.0,
+                        "epyc.experiment.start_time": "2021-07-24T09:38:41.090456",
+                        "epyc.experiment.status": false,
+                        "epyc.experiment.teardown_time": 0.0,
+                        "epyc.experiment.traceback": "Traceback (most recent call last):\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epyc/experiment.py\", line 232, in run\n    self.setUp(params)\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epydemic/networkdynamics.py\", line 120, in setUp\n    super().setUp(params)\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epydemic/networkexperiment.py\", line 102, in setUp\n    self._graph = self.networkGenerator().set(params).generate()\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/venv/lib/python3.9/site-packages/epydemic/generator.py\", line 97, in generate\n    return self._generate(self._params)\n  File \"/home/leopoldpfeiffer/simulations/epi-sim/lib/model/network/mobility_network.py\", line 337, in _generate\n    n = params[self.N]\nKeyError: 'MN.n'\n"
+                    },
+                    "results": {}
+                }
+            ],
+            "pending-results": {},
+            "description": "Results collected on 2021-07-24 09:38:41.068939",
+            "locked": false
+        }
+    }
+}
