@@ -12,3 +12,6 @@ Contains input data to create the mobility network.
 
 ### 📁 network-metrics
 Contains the results of metrics calculations of the networks.
+
+### 📁 validation
+Contains the data used for model validation.
