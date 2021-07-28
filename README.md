@@ -1,5 +1,5 @@
 # epi-sim-data
-Data repository for my MSc thesis.
+Data repository for my [MSc Thesis](https://github.com/leo-pfeiffer/epi-sim).
 
 ### 📁 simulations
 Contains results of epidemic simulations
