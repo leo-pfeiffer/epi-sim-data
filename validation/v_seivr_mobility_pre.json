@@ -1,0 +1,256 @@
+{
+    "creator": "Created by epyc, computational experiment management for Python <https://pypi.org/project/epyc/>",
+    "version": "2",
+    "description": "SEIVR simulation with Mobility Network (Pre)",
+    "current": "epyc.resultset.default",
+    "locked": false,
+    "resultsets": {
+        "epyc.resultset.default": {
+            "results": [
+                {
+                    "parameters": {
+                        "MN.cutoff": 40,
+                        "MN.exponent": 2,
+                        "MN.multiplier": false,
+                        "MN.n": 10000,
+                        "epydemic.monitor.time_delta": 1
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 0,
+                        "epyc.experiment.end_time": "2021-07-30T09:38:45.401934",
+                        "epyc.experiment.exception": "'epydemic.SEIVR.p_exposed'",
+                        "epyc.experiment.experiment_time": 0.0,
+                        "epyc.experiment.rep": 0,
+                        "epyc.experiment.repetitions": 10,
+                        "epyc.experiment.setup_time": 0.0,
+                        "epyc.experiment.start_time": "2021-07-30T09:38:09.441530",
+                        "epyc.experiment.status": false,
+                        "epyc.experiment.teardown_time": 0.0,
+                        "epyc.experiment.traceback": "Traceback (most recent call last):\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epyc/experiment.py\", line 232, in run\n    self.setUp(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epydemic/networkdynamics.py\", line 133, in setUp\n    self._process.build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 158, in build\n    super().build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 55, in build\n    p_exposed = params[self.P_EXPOSED]\nKeyError: 'epydemic.SEIVR.p_exposed'\n"
+                    },
+                    "results": {}
+                },
+                {
+                    "parameters": {
+                        "MN.cutoff": 40,
+                        "MN.exponent": 2,
+                        "MN.multiplier": false,
+                        "MN.n": 10000,
+                        "epydemic.monitor.time_delta": 1
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 0,
+                        "epyc.experiment.end_time": "2021-07-30T09:39:20.659113",
+                        "epyc.experiment.exception": "'epydemic.SEIVR.p_exposed'",
+                        "epyc.experiment.experiment_time": 0.0,
+                        "epyc.experiment.rep": 1,
+                        "epyc.experiment.repetitions": 10,
+                        "epyc.experiment.setup_time": 0.0,
+                        "epyc.experiment.start_time": "2021-07-30T09:38:45.402003",
+                        "epyc.experiment.status": false,
+                        "epyc.experiment.teardown_time": 0.0,
+                        "epyc.experiment.traceback": "Traceback (most recent call last):\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epyc/experiment.py\", line 232, in run\n    self.setUp(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epydemic/networkdynamics.py\", line 133, in setUp\n    self._process.build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 158, in build\n    super().build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 55, in build\n    p_exposed = params[self.P_EXPOSED]\nKeyError: 'epydemic.SEIVR.p_exposed'\n"
+                    },
+                    "results": {}
+                },
+                {
+                    "parameters": {
+                        "MN.cutoff": 40,
+                        "MN.exponent": 2,
+                        "MN.multiplier": false,
+                        "MN.n": 10000,
+                        "epydemic.monitor.time_delta": 1
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 0,
+                        "epyc.experiment.end_time": "2021-07-30T09:39:56.537674",
+                        "epyc.experiment.exception": "'epydemic.SEIVR.p_exposed'",
+                        "epyc.experiment.experiment_time": 0.0,
+                        "epyc.experiment.rep": 2,
+                        "epyc.experiment.repetitions": 10,
+                        "epyc.experiment.setup_time": 0.0,
+                        "epyc.experiment.start_time": "2021-07-30T09:39:20.659301",
+                        "epyc.experiment.status": false,
+                        "epyc.experiment.teardown_time": 0.0,
+                        "epyc.experiment.traceback": "Traceback (most recent call last):\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epyc/experiment.py\", line 232, in run\n    self.setUp(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epydemic/networkdynamics.py\", line 133, in setUp\n    self._process.build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 158, in build\n    super().build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 55, in build\n    p_exposed = params[self.P_EXPOSED]\nKeyError: 'epydemic.SEIVR.p_exposed'\n"
+                    },
+                    "results": {}
+                },
+                {
+                    "parameters": {
+                        "MN.cutoff": 40,
+                        "MN.exponent": 2,
+                        "MN.multiplier": false,
+                        "MN.n": 10000,
+                        "epydemic.monitor.time_delta": 1
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 0,
+                        "epyc.experiment.end_time": "2021-07-30T09:40:32.016792",
+                        "epyc.experiment.exception": "'epydemic.SEIVR.p_exposed'",
+                        "epyc.experiment.experiment_time": 0.0,
+                        "epyc.experiment.rep": 3,
+                        "epyc.experiment.repetitions": 10,
+                        "epyc.experiment.setup_time": 0.0,
+                        "epyc.experiment.start_time": "2021-07-30T09:39:56.537751",
+                        "epyc.experiment.status": false,
+                        "epyc.experiment.teardown_time": 0.0,
+                        "epyc.experiment.traceback": "Traceback (most recent call last):\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epyc/experiment.py\", line 232, in run\n    self.setUp(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epydemic/networkdynamics.py\", line 133, in setUp\n    self._process.build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 158, in build\n    super().build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 55, in build\n    p_exposed = params[self.P_EXPOSED]\nKeyError: 'epydemic.SEIVR.p_exposed'\n"
+                    },
+                    "results": {}
+                },
+                {
+                    "parameters": {
+                        "MN.cutoff": 40,
+                        "MN.exponent": 2,
+                        "MN.multiplier": false,
+                        "MN.n": 10000,
+                        "epydemic.monitor.time_delta": 1
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 0,
+                        "epyc.experiment.end_time": "2021-07-30T09:41:07.167669",
+                        "epyc.experiment.exception": "'epydemic.SEIVR.p_exposed'",
+                        "epyc.experiment.experiment_time": 0.0,
+                        "epyc.experiment.rep": 4,
+                        "epyc.experiment.repetitions": 10,
+                        "epyc.experiment.setup_time": 0.0,
+                        "epyc.experiment.start_time": "2021-07-30T09:40:32.016868",
+                        "epyc.experiment.status": false,
+                        "epyc.experiment.teardown_time": 0.0,
+                        "epyc.experiment.traceback": "Traceback (most recent call last):\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epyc/experiment.py\", line 232, in run\n    self.setUp(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epydemic/networkdynamics.py\", line 133, in setUp\n    self._process.build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 158, in build\n    super().build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 55, in build\n    p_exposed = params[self.P_EXPOSED]\nKeyError: 'epydemic.SEIVR.p_exposed'\n"
+                    },
+                    "results": {}
+                },
+                {
+                    "parameters": {
+                        "MN.cutoff": 40,
+                        "MN.exponent": 2,
+                        "MN.multiplier": false,
+                        "MN.n": 10000,
+                        "epydemic.monitor.time_delta": 1
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 0,
+                        "epyc.experiment.end_time": "2021-07-30T09:41:43.968566",
+                        "epyc.experiment.exception": "'epydemic.SEIVR.p_exposed'",
+                        "epyc.experiment.experiment_time": 0.0,
+                        "epyc.experiment.rep": 5,
+                        "epyc.experiment.repetitions": 10,
+                        "epyc.experiment.setup_time": 0.0,
+                        "epyc.experiment.start_time": "2021-07-30T09:41:07.167711",
+                        "epyc.experiment.status": false,
+                        "epyc.experiment.teardown_time": 0.0,
+                        "epyc.experiment.traceback": "Traceback (most recent call last):\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epyc/experiment.py\", line 232, in run\n    self.setUp(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epydemic/networkdynamics.py\", line 133, in setUp\n    self._process.build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 158, in build\n    super().build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 55, in build\n    p_exposed = params[self.P_EXPOSED]\nKeyError: 'epydemic.SEIVR.p_exposed'\n"
+                    },
+                    "results": {}
+                },
+                {
+                    "parameters": {
+                        "MN.cutoff": 40,
+                        "MN.exponent": 2,
+                        "MN.multiplier": false,
+                        "MN.n": 10000,
+                        "epydemic.monitor.time_delta": 1
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 0,
+                        "epyc.experiment.end_time": "2021-07-30T09:42:19.326540",
+                        "epyc.experiment.exception": "'epydemic.SEIVR.p_exposed'",
+                        "epyc.experiment.experiment_time": 0.0,
+                        "epyc.experiment.rep": 6,
+                        "epyc.experiment.repetitions": 10,
+                        "epyc.experiment.setup_time": 0.0,
+                        "epyc.experiment.start_time": "2021-07-30T09:41:43.968649",
+                        "epyc.experiment.status": false,
+                        "epyc.experiment.teardown_time": 0.0,
+                        "epyc.experiment.traceback": "Traceback (most recent call last):\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epyc/experiment.py\", line 232, in run\n    self.setUp(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epydemic/networkdynamics.py\", line 133, in setUp\n    self._process.build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 158, in build\n    super().build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 55, in build\n    p_exposed = params[self.P_EXPOSED]\nKeyError: 'epydemic.SEIVR.p_exposed'\n"
+                    },
+                    "results": {}
+                },
+                {
+                    "parameters": {
+                        "MN.cutoff": 40,
+                        "MN.exponent": 2,
+                        "MN.multiplier": false,
+                        "MN.n": 10000,
+                        "epydemic.monitor.time_delta": 1
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 0,
+                        "epyc.experiment.end_time": "2021-07-30T09:42:54.350600",
+                        "epyc.experiment.exception": "'epydemic.SEIVR.p_exposed'",
+                        "epyc.experiment.experiment_time": 0.0,
+                        "epyc.experiment.rep": 7,
+                        "epyc.experiment.repetitions": 10,
+                        "epyc.experiment.setup_time": 0.0,
+                        "epyc.experiment.start_time": "2021-07-30T09:42:19.326620",
+                        "epyc.experiment.status": false,
+                        "epyc.experiment.teardown_time": 0.0,
+                        "epyc.experiment.traceback": "Traceback (most recent call last):\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epyc/experiment.py\", line 232, in run\n    self.setUp(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epydemic/networkdynamics.py\", line 133, in setUp\n    self._process.build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 158, in build\n    super().build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 55, in build\n    p_exposed = params[self.P_EXPOSED]\nKeyError: 'epydemic.SEIVR.p_exposed'\n"
+                    },
+                    "results": {}
+                },
+                {
+                    "parameters": {
+                        "MN.cutoff": 40,
+                        "MN.exponent": 2,
+                        "MN.multiplier": false,
+                        "MN.n": 10000,
+                        "epydemic.monitor.time_delta": 1
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 0,
+                        "epyc.experiment.end_time": "2021-07-30T09:43:29.016168",
+                        "epyc.experiment.exception": "'epydemic.SEIVR.p_exposed'",
+                        "epyc.experiment.experiment_time": 0.0,
+                        "epyc.experiment.rep": 8,
+                        "epyc.experiment.repetitions": 10,
+                        "epyc.experiment.setup_time": 0.0,
+                        "epyc.experiment.start_time": "2021-07-30T09:42:54.350639",
+                        "epyc.experiment.status": false,
+                        "epyc.experiment.teardown_time": 0.0,
+                        "epyc.experiment.traceback": "Traceback (most recent call last):\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epyc/experiment.py\", line 232, in run\n    self.setUp(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epydemic/networkdynamics.py\", line 133, in setUp\n    self._process.build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 158, in build\n    super().build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 55, in build\n    p_exposed = params[self.P_EXPOSED]\nKeyError: 'epydemic.SEIVR.p_exposed'\n"
+                    },
+                    "results": {}
+                },
+                {
+                    "parameters": {
+                        "MN.cutoff": 40,
+                        "MN.exponent": 2,
+                        "MN.multiplier": false,
+                        "MN.n": 10000,
+                        "epydemic.monitor.time_delta": 1
+                    },
+                    "metadata": {
+                        "epyc.experiment.classname": "epydemic.stochasticdynamics.StochasticDynamics",
+                        "epyc.experiment.elapsed_time": 0,
+                        "epyc.experiment.end_time": "2021-07-30T09:44:04.152881",
+                        "epyc.experiment.exception": "'epydemic.SEIVR.p_exposed'",
+                        "epyc.experiment.experiment_time": 0.0,
+                        "epyc.experiment.rep": 9,
+                        "epyc.experiment.repetitions": 10,
+                        "epyc.experiment.setup_time": 0.0,
+                        "epyc.experiment.start_time": "2021-07-30T09:43:29.016210",
+                        "epyc.experiment.status": false,
+                        "epyc.experiment.teardown_time": 0.0,
+                        "epyc.experiment.traceback": "Traceback (most recent call last):\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epyc/experiment.py\", line 232, in run\n    self.setUp(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/venv/lib64/python3.6/site-packages/epydemic/networkdynamics.py\", line 133, in setUp\n    self._process.build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 158, in build\n    super().build(params)\n  File \"/cs/home/ljp9/Documents/epi-sim/lib/model/compartmental_model/seivr.py\", line 55, in build\n    p_exposed = params[self.P_EXPOSED]\nKeyError: 'epydemic.SEIVR.p_exposed'\n"
+                    },
+                    "results": {}
+                }
+            ],
+            "pending-results": {},
+            "description": "Results collected on 2021-07-30 09:38:06.873772",
+            "locked": false
+        }
+    }
+}
