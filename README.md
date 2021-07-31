@@ -1,17 +1,20 @@
 # epi-sim-data
 Data repository for my [MSc Thesis](https://github.com/leo-pfeiffer/epi-sim).
 
-### 📁 simulations
-Contains results of epidemic simulations
-
 ### 📁 app-data
-Simulation results as input for the EpiSim web application
+Simulation results as input for the web app
 
 ### 📁 network-data
-Contains input data to create the mobility network.
+Input data to create the mobility network
 
 ### 📁 network-metrics
-Contains the results of metrics calculations of the networks.
+Results of network metrics calculations
+
+### 📁 simulations
+  - Simulation results for COVID-19
+  - 📁 influenza: simulation results for influenza
 
 ### 📁 validation
-Contains the data used for model validation.
+  - Simulation results for model validation
+  - 📁 app-data: transformed validation results as input for the web app
+  - 📁 case-data: empirical data with case counts for validation
